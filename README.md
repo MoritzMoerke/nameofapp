@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hey, I am Moritz and I currently do a Programming Online Class 
 
 Things you may want to cover:
 
