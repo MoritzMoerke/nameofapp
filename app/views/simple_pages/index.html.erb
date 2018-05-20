@@ -1,6 +1,23 @@
 <p>Welcome! The date and time is <%= Time.now %></p>
 
 <h1>Welcome to Bike Berlin</h1>
-<h2>Your source for used bikes in Berlin</h2>
+<h1>Your source for used bikes in Berlin</h1>
+<p>We have a wide variety of different bikes to offer: </p>
 
-<%= image_tag("bike1.jpg", class: "img-responsive my-image") %>
+<div class="row">
+  <div class="col-md-4">
+    <h2>Bike 1</h2>
+    <%= image_tag("bike1.jpg", class: "img-responsive my-image") %>
+    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+  </div><!-- end col -->
+  <div class="col-md-4">
+    <h2>Bike 2</h2>
+    <%= image_tag("bike1.jpg", class: "img-responsive my-image") %>
+  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+ </div><!-- end col -->
+  <div class="col-md-4">
+    <h2>Bike 3</h2>
+    <%= image_tag("bike1.jpg", class: "img-responsive my-image") %>
+    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+  </div><!-- end col -->
+</div><!-- end row -->
